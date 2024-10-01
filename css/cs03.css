@@ -1,0 +1,42 @@
+h3, li { 
+    color : brown;
+}
+
+/* 자식 셀렉터 */
+div > div > strong {
+    background-color: yellow;
+}
+
+/* 자손 셀렉터 */
+ul strong {
+    color : dodgerblue;
+}
+
+/* class 셀렉터 */
+.warning { 
+    color : red;
+
+}
+
+.main {
+    background: aliceblue;
+}
+
+/* id 셀렉터  */
+#list {
+    background: mistyrose;
+}
+
+/* 자손 셀렉터 */
+#list span {
+    color : forestgreen;
+}
+
+h3::first-letter{
+    color : red;
+}
+
+
+li:hover{
+    background: yellowgreen;
+}
